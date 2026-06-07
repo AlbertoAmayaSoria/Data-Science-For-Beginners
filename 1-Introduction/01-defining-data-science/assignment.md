@@ -2,6 +2,8 @@
 
 In this first assignment, we ask you to think about some real-life process or problem in different problem domains, and how you can improve it using the Data Science process. Think about the following:
 
+In the pandem
+
 1. Which data can you collect?
 1. How would you collect it?
 1. How would you store the data? How large the data is likely to be?
@@ -20,9 +22,9 @@ Fill in the following table (substitute suggested problem domains for your own o
 
 | Problem Domain | Problem | Which data to collect | How to store the data | Which insights/decisions we can make | 
 |----------------|---------|-----------------------|-----------------------|--------------------------------------|
-| Education | | | | |
-| Vaccination | | | | |
-| Productivity | | | | |
+| Salud | Pandemic |Vaccine effectivenes, number of infected, places with higher infection rates, mortality, through public data | The data can be store in the cloud or on a local server, using SQL style storage | The effectiveness rate of a vaccine, the speed of contagion, whether the efforts are sufficient or whether the methods (vaccines) should be changed |
+| Education | Improve educational quality | Time spent on school/homework, curriculum taught, subjects with the highes failure/pass rates, students grades per semester | The data can be stored in an Excel-style format to maintain relationships, but keep in main that not everyone provides the information or that more data may be required | We can understand if students plans improve the average students performance and if these plans are having a real impact on students learning. |
+| Productivity | Wholesale production | Machinery, faults and possible solutions, date of fault/solution on the machine | The data is stored in an SQL database of an Excel spreadsheet | We can improve the efficiency of a machine's resolution time |
 
 ## Rubric
 
