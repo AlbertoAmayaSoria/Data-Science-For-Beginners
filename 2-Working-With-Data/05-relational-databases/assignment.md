@@ -50,8 +50,21 @@ A database's schema is its table design and structure. The **airports** database
 Create queries to return the following information:
 
 1. all city names in the `Cities` table
+    SELECT city FROM Cities;
+
 1. all cities in Ireland in the `Cities` table
+    SELECT * FROM Cities WHERE country == '%Ireland%';
+
 1. all airport names with their city and country
+    SELECT
+        Airports.name AS airport_name,
+        Cities.city,
+        Cities.country,
+    FROM
+        Airports
+    Join
+        Cities ON Airports.city_id == Cities.id;
+
 1. all airports in London, United Kingdom
 
 ## Rubric
